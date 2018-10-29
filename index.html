@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Goon Squad</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav>
+        <a class="navHome" href="index.html"><i class="fa fa-home"></i></a>
+        <h1 class="navTitle">Home</h1>
+        <!--Navbar sidemenu toggle button-->
+        <div class="toggle" onclick="toggleSidebar()">
+            <h1 class="mTitle">Menu</h1>
+            <div class="toggle" onclick="menu(this)">
+                <div class="toggle-btn">
+                    <h1 class="mTitle">Menu</h1>
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--SideBar Content-->
+    <div id="sidebar">
+        <div class="list">
+            <a class="active" href="index.html">Home</a>
+            <a href="html/Big_Stew.html">Big_Stew</a>
+            <a href="html/Big_Stew.html">JohnTheMarksman</a>
+        </div>
+    </div>
+    <!--Main Content-->
+    <div class="grid">
+        <!--TypeWritter and Image-->
+        <div class="title">
+            <h1 class="titlePad">GoonSquad</h1>
+            <h1> <span class="txt-type titleWord" data-wait="3000" data-words='["Big_Stew", "JohnThe MarksMan", "Nickulaz","TheMerc"]'></span>
+            </h1>
+        </div>
+        <!--Main Cards-->
+        <div class="footer">
+            <div>Student Web Page</div>
+            <div>Project by The Goons</div>
+        </div>
+    </div>
+
+    <!--Javascript-->
+    <script src="javascript/menu.min.js"></script>
+    <script src="javascript/type.min.js"></script>
+    <script src="javascript/x.min.js"></script>
+</body>
+
+</html>
